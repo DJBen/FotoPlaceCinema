@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4F8710B1ABE5F95008690DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F8710A1ABE5F95008690DE /* AppDelegate.swift */; };
+		F4F8710D1ABE5F95008690DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F8710C1ABE5F95008690DE /* ViewController.swift */; };
+		F4F871101ABE5F95008690DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F8710E1ABE5F95008690DE /* Main.storyboard */; };
+		F4F871121ABE5F95008690DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F871111ABE5F95008690DE /* Images.xcassets */; };
+		F4F871151ABE5F95008690DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4F871131ABE5F95008690DE /* LaunchScreen.xib */; };
+		F4F871211ABE5F95008690DE /* FotoPlace_CinemaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F871201ABE5F95008690DE /* FotoPlace_CinemaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4F8711B1ABE5F95008690DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4F870FD1ABE5F95008690DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4F871041ABE5F95008690DE;
+			remoteInfo = "FotoPlace Cinema";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4F871051ABE5F95008690DE /* FotoPlace Cinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FotoPlace Cinema.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F871091ABE5F95008690DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F8710A1ABE5F95008690DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4F8710C1ABE5F95008690DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4F8710F1ABE5F95008690DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4F871111ABE5F95008690DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4F871141ABE5F95008690DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F4F8711A1ABE5F95008690DE /* FotoPlace CinemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FotoPlace CinemaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F8711F1ABE5F95008690DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F871201ABE5F95008690DE /* FotoPlace_CinemaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoPlace_CinemaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4F871021ABE5F95008690DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F871171ABE5F95008690DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4F870FC1ABE5F95008690DE = {
+			isa = PBXGroup;
+			children = (
+				F4F871071ABE5F95008690DE /* FotoPlace Cinema */,
+				F4F8711D1ABE5F95008690DE /* FotoPlace CinemaTests */,
+				F4F871061ABE5F95008690DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4F871061ABE5F95008690DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4F871051ABE5F95008690DE /* FotoPlace Cinema.app */,
+				F4F8711A1ABE5F95008690DE /* FotoPlace CinemaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4F871071ABE5F95008690DE /* FotoPlace Cinema */ = {
+			isa = PBXGroup;
+			children = (
+				F4F8710A1ABE5F95008690DE /* AppDelegate.swift */,
+				F4F8710C1ABE5F95008690DE /* ViewController.swift */,
+				F4F8710E1ABE5F95008690DE /* Main.storyboard */,
+				F4F871111ABE5F95008690DE /* Images.xcassets */,
+				F4F871131ABE5F95008690DE /* LaunchScreen.xib */,
+				F4F871081ABE5F95008690DE /* Supporting Files */,
+			);
+			path = "FotoPlace Cinema";
+			sourceTree = "<group>";
+		};
+		F4F871081ABE5F95008690DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4F871091ABE5F95008690DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4F8711D1ABE5F95008690DE /* FotoPlace CinemaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4F871201ABE5F95008690DE /* FotoPlace_CinemaTests.swift */,
+				F4F8711E1ABE5F95008690DE /* Supporting Files */,
+			);
+			path = "FotoPlace CinemaTests";
+			sourceTree = "<group>";
+		};
+		F4F8711E1ABE5F95008690DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4F8711F1ABE5F95008690DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4F871041ABE5F95008690DE /* FotoPlace Cinema */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F871241ABE5F95008690DE /* Build configuration list for PBXNativeTarget "FotoPlace Cinema" */;
+			buildPhases = (
+				F4F871011ABE5F95008690DE /* Sources */,
+				F4F871021ABE5F95008690DE /* Frameworks */,
+				F4F871031ABE5F95008690DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FotoPlace Cinema";
+			productName = "FotoPlace Cinema";
+			productReference = F4F871051ABE5F95008690DE /* FotoPlace Cinema.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4F871191ABE5F95008690DE /* FotoPlace CinemaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F871271ABE5F95008690DE /* Build configuration list for PBXNativeTarget "FotoPlace CinemaTests" */;
+			buildPhases = (
+				F4F871161ABE5F95008690DE /* Sources */,
+				F4F871171ABE5F95008690DE /* Frameworks */,
+				F4F871181ABE5F95008690DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4F8711C1ABE5F95008690DE /* PBXTargetDependency */,
+			);
+			name = "FotoPlace CinemaTests";
+			productName = "FotoPlace CinemaTests";
+			productReference = F4F8711A1ABE5F95008690DE /* FotoPlace CinemaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4F870FD1ABE5F95008690DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = DJ.Ben;
+				TargetAttributes = {
+					F4F871041ABE5F95008690DE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F4F871191ABE5F95008690DE = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F4F871041ABE5F95008690DE;
+					};
+				};
+			};
+			buildConfigurationList = F4F871001ABE5F95008690DE /* Build configuration list for PBXProject "FotoPlace Cinema" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4F870FC1ABE5F95008690DE;
+			productRefGroup = F4F871061ABE5F95008690DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4F871041ABE5F95008690DE /* FotoPlace Cinema */,
+				F4F871191ABE5F95008690DE /* FotoPlace CinemaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4F871031ABE5F95008690DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F871101ABE5F95008690DE /* Main.storyboard in Resources */,
+				F4F871151ABE5F95008690DE /* LaunchScreen.xib in Resources */,
+				F4F871121ABE5F95008690DE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F871181ABE5F95008690DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4F871011ABE5F95008690DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F8710D1ABE5F95008690DE /* ViewController.swift in Sources */,
+				F4F8710B1ABE5F95008690DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F871161ABE5F95008690DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F871211ABE5F95008690DE /* FotoPlace_CinemaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4F8711C1ABE5F95008690DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4F871041ABE5F95008690DE /* FotoPlace Cinema */;
+			targetProxy = F4F8711B1ABE5F95008690DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4F8710E1ABE5F95008690DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4F8710F1ABE5F95008690DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4F871131ABE5F95008690DE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4F871141ABE5F95008690DE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4F871221ABE5F95008690DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4F871231ABE5F95008690DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4F871251ABE5F95008690DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FotoPlace Cinema/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4F871261ABE5F95008690DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FotoPlace Cinema/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4F871281ABE5F95008690DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FotoPlace CinemaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FotoPlace Cinema.app/FotoPlace Cinema";
+			};
+			name = Debug;
+		};
+		F4F871291ABE5F95008690DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FotoPlace CinemaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FotoPlace Cinema.app/FotoPlace Cinema";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4F871001ABE5F95008690DE /* Build configuration list for PBXProject "FotoPlace Cinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F871221ABE5F95008690DE /* Debug */,
+				F4F871231ABE5F95008690DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F871241ABE5F95008690DE /* Build configuration list for PBXNativeTarget "FotoPlace Cinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F871251ABE5F95008690DE /* Debug */,
+				F4F871261ABE5F95008690DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4F871271ABE5F95008690DE /* Build configuration list for PBXNativeTarget "FotoPlace CinemaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F871281ABE5F95008690DE /* Debug */,
+				F4F871291ABE5F95008690DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4F870FD1ABE5F95008690DE /* Project object */;
+}
