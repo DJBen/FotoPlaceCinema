@@ -1,0 +1,6 @@
+framework module JGProgressHUD {
+  umbrella header "Pods-JGProgressHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}

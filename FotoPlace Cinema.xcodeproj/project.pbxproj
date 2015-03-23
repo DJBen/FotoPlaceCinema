@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6FF19A6E4BCA1F5E9B9ECE6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95125A35344D858A8F0D7215 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F4EA11F11ABFC58A009A3295 /* MovieEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EA11F01ABFC58A009A3295 /* MovieEffectViewController.swift */; };
+		F4EA11F31ABFCC28009A3295 /* BottomOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EA11F21ABFCC28009A3295 /* BottomOverlayViewController.swift */; };
 		F4F8710B1ABE5F95008690DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F8710A1ABE5F95008690DE /* AppDelegate.swift */; };
-		F4F8710D1ABE5F95008690DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F8710C1ABE5F95008690DE /* ViewController.swift */; };
+		F4F8710D1ABE5F95008690DE /* PhotoCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F8710C1ABE5F95008690DE /* PhotoCaptureViewController.swift */; };
 		F4F871101ABE5F95008690DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F8710E1ABE5F95008690DE /* Main.storyboard */; };
 		F4F871121ABE5F95008690DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F871111ABE5F95008690DE /* Images.xcassets */; };
 		F4F871151ABE5F95008690DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4F871131ABE5F95008690DE /* LaunchScreen.xib */; };
 		F4F871211ABE5F95008690DE /* FotoPlace_CinemaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F871201ABE5F95008690DE /* FotoPlace_CinemaTests.swift */; };
+		F4F8712F1ABE7AD8008690DE /* CropPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F8712E1ABE7AD8008690DE /* CropPhotoViewController.swift */; };
+		F4F871311ABE7D3F008690DE /* CropRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F871301ABE7D3F008690DE /* CropRectView.swift */; };
+		F4F871341ABEA718008690DE /* UIImage+OrientationFix.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F871331ABEA718008690DE /* UIImage+OrientationFix.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +32,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08023A861C7E4875D95EAEBB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		14E2BD32FDEA6E32B5A554EA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		95125A35344D858A8F0D7215 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EA11F01ABFC58A009A3295 /* MovieEffectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieEffectViewController.swift; sourceTree = "<group>"; };
+		F4EA11F21ABFCC28009A3295 /* BottomOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomOverlayViewController.swift; sourceTree = "<group>"; };
 		F4F871051ABE5F95008690DE /* FotoPlace Cinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FotoPlace Cinema.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F871091ABE5F95008690DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4F8710A1ABE5F95008690DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4F8710C1ABE5F95008690DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4F8710C1ABE5F95008690DE /* PhotoCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureViewController.swift; sourceTree = "<group>"; };
 		F4F8710F1ABE5F95008690DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4F871111ABE5F95008690DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F4F871141ABE5F95008690DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F4F8711A1ABE5F95008690DE /* FotoPlace CinemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FotoPlace CinemaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F8711F1ABE5F95008690DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4F871201ABE5F95008690DE /* FotoPlace_CinemaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoPlace_CinemaTests.swift; sourceTree = "<group>"; };
+		F4F8712A1ABE78A9008690DE /* FotoPlace Cinema-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FotoPlace Cinema-Bridging-Header.h"; sourceTree = "<group>"; };
+		F4F8712E1ABE7AD8008690DE /* CropPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropPhotoViewController.swift; sourceTree = "<group>"; };
+		F4F871301ABE7D3F008690DE /* CropRectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropRectView.swift; sourceTree = "<group>"; };
+		F4F871321ABEA718008690DE /* UIImage+OrientationFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OrientationFix.h"; sourceTree = "<group>"; };
+		F4F871331ABEA718008690DE /* UIImage+OrientationFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+OrientationFix.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6FF19A6E4BCA1F5E9B9ECE6 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +73,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B1D8B6A226983E548FC6B1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14E2BD32FDEA6E32B5A554EA /* Pods.debug.xcconfig */,
+				08023A861C7E4875D95EAEBB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98511D6B01336A7677083488 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95125A35344D858A8F0D7215 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4F870FC1ABE5F95008690DE = {
 			isa = PBXGroup;
 			children = (
 				F4F871071ABE5F95008690DE /* FotoPlace Cinema */,
 				F4F8711D1ABE5F95008690DE /* FotoPlace CinemaTests */,
 				F4F871061ABE5F95008690DE /* Products */,
+				1B1D8B6A226983E548FC6B1A /* Pods */,
+				98511D6B01336A7677083488 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +114,18 @@
 			isa = PBXGroup;
 			children = (
 				F4F8710A1ABE5F95008690DE /* AppDelegate.swift */,
-				F4F8710C1ABE5F95008690DE /* ViewController.swift */,
+				F4EA11F21ABFCC28009A3295 /* BottomOverlayViewController.swift */,
+				F4F8710C1ABE5F95008690DE /* PhotoCaptureViewController.swift */,
+				F4F8712E1ABE7AD8008690DE /* CropPhotoViewController.swift */,
+				F4EA11F01ABFC58A009A3295 /* MovieEffectViewController.swift */,
+				F4F871301ABE7D3F008690DE /* CropRectView.swift */,
+				F4F871321ABEA718008690DE /* UIImage+OrientationFix.h */,
+				F4F871331ABEA718008690DE /* UIImage+OrientationFix.m */,
 				F4F8710E1ABE5F95008690DE /* Main.storyboard */,
 				F4F871111ABE5F95008690DE /* Images.xcassets */,
 				F4F871131ABE5F95008690DE /* LaunchScreen.xib */,
 				F4F871081ABE5F95008690DE /* Supporting Files */,
+				F4F8712A1ABE78A9008690DE /* FotoPlace Cinema-Bridging-Header.h */,
 			);
 			path = "FotoPlace Cinema";
 			sourceTree = "<group>";
@@ -119,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4F871241ABE5F95008690DE /* Build configuration list for PBXNativeTarget "FotoPlace Cinema" */;
 			buildPhases = (
+				D5233EBB563051BF69612115 /* Check Pods Manifest.lock */,
 				F4F871011ABE5F95008690DE /* Sources */,
 				F4F871021ABE5F95008690DE /* Frameworks */,
 				F4F871031ABE5F95008690DE /* Resources */,
+				6E3179D7136744AE7EE8EC4B /* Embed Pods Frameworks */,
+				47F04CED18692D0517259AA7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,12 +253,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47F04CED18692D0517259AA7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E3179D7136744AE7EE8EC4B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5233EBB563051BF69612115 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4F871011ABE5F95008690DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4F8710D1ABE5F95008690DE /* ViewController.swift in Sources */,
+				F4F8712F1ABE7AD8008690DE /* CropPhotoViewController.swift in Sources */,
+				F4F8710D1ABE5F95008690DE /* PhotoCaptureViewController.swift in Sources */,
+				F4EA11F11ABFC58A009A3295 /* MovieEffectViewController.swift in Sources */,
+				F4EA11F31ABFCC28009A3295 /* BottomOverlayViewController.swift in Sources */,
+				F4F871341ABEA718008690DE /* UIImage+OrientationFix.m in Sources */,
+				F4F871311ABE7D3F008690DE /* CropRectView.swift in Sources */,
 				F4F8710B1ABE5F95008690DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,21 +433,28 @@
 		};
 		F4F871251ABE5F95008690DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E2BD32FDEA6E32B5A554EA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "FotoPlace Cinema/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FotoPlace Cinema/FotoPlace Cinema-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		F4F871261ABE5F95008690DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08023A861C7E4875D95EAEBB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "FotoPlace Cinema/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FotoPlace Cinema/FotoPlace Cinema-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +511,7 @@
 				F4F871261ABE5F95008690DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4F871271ABE5F95008690DE /* Build configuration list for PBXNativeTarget "FotoPlace CinemaTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +520,7 @@
 				F4F871291ABE5F95008690DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
