@@ -46,7 +46,7 @@ class CropPhotoViewController: BottomOverlayViewController, UIGestureRecognizerD
     }()
     
     lazy var nextStepButton: UIButton = {
-        let button: UIButton = UIButton.buttonWithType(.Custom) as UIButton
+        let button: UIButton = UIButton.buttonWithType(.Custom) as! UIButton
         button.setTitle("下一步", forState: .Normal)
         button.setTitleColor(Style.ForegroundBlue, forState: .Normal)
         button.titleLabel!.font = UIFont(name: "HelveticaNeue", size: 18)
@@ -140,17 +140,20 @@ class CropPhotoViewController: BottomOverlayViewController, UIGestureRecognizerD
         } else {
             let translation = sender.translationInView(sender.view!)
             
-            if (cropView.frame.origin.x + CropRectControlRadius + translation.x - lastTranslation.x) < imageView.frame.origin.x {
+            let deltaX: CGFloat = cropView.frame.origin.x + CropRectControlRadius + translation.x - lastTranslation.x
+            let deltaY: CGFloat = cropView.frame.origin.y + CropRectControlRadius + translation.y - lastTranslation.y
+            
+            if deltaX < imageView.frame.origin.x {
                 cropView.frame.origin.x = imageView.frame.origin.x - CropRectControlRadius
-            } else if (cropView.frame.origin.x + cropView.frame.width - CropRectControlRadius + translation.x - lastTranslation.x) > imageView.frame.origin.x + imageView.frame.width {
+            } else if deltaX + cropView.frame.width > imageView.frame.origin.x + imageView.frame.width {
                 cropView.frame.origin.x = imageView.frame.origin.x + imageView.frame.width - cropView.frame.width + CropRectControlRadius
             } else {
                 cropView.frame.origin.x += translation.x - lastTranslation.x
             }
-            if (cropView.frame.origin.y + CropRectControlRadius + translation.y - lastTranslation.y) < imageView.frame.origin.y {
+            if deltaY < imageView.frame.origin.y {
                 cropView.frame.origin.y = imageView.frame.origin.y - CropRectControlRadius
 
-            } else if (cropView.frame.origin.y + cropView.frame.height - CropRectControlRadius + translation.y - lastTranslation.y) > imageView.frame.origin.y + imageView.frame.height {
+            } else if deltaY + cropView.frame.height > imageView.frame.origin.y + imageView.frame.height {
                 cropView.frame.origin.y = imageView.frame.origin.y + imageView.frame.height - cropView.frame.height + CropRectControlRadius
             } else {
                 cropView.frame.origin.y += translation.y - lastTranslation.y
@@ -173,7 +176,7 @@ class CropPhotoViewController: BottomOverlayViewController, UIGestureRecognizerD
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == MovieEffectSegueIdentifier {
-            let vc = segue.destinationViewController as MovieEffectViewController
+            let vc = segue.destinationViewController as! MovieEffectViewController
             vc.sourceImage = sourceImage
             vc.cropRect = croppedImageRect()
 //            println("Source image size = \(sourceImage.size), crop rect = \(vc.cropRect)")

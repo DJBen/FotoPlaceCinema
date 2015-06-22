@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
 
+#import "JGProgressHUD-Defines.h"
 #import "JGProgressHUD.h"
 #import "JGProgressHUDAnimation.h"
 #import "JGProgressHUDErrorIndicatorView.h"

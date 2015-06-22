@@ -1,13 +1,13 @@
 PODS:
-  - Cartography (0.2.1)
-  - JGProgressHUD (1.2.3)
+  - Cartography (0.5.0)
+  - JGProgressHUD (1.2.7)
 
 DEPENDENCIES:
   - Cartography
   - JGProgressHUD
 
 SPEC CHECKSUMS:
-  Cartography: 9efb847f5068db052df1f8627e70382e37e17184
-  JGProgressHUD: 733523c80f69b6dfc41b88a0f33883a89a8b4c3b
+  Cartography: 774e5cc446f5a6bca5d4345c5aa6af9a1fe74dc6
+  JGProgressHUD: a45c1d16adddf7e38092ce3f0d71d3955d2de2ec
 
-COCOAPODS: 0.36.0
+COCOAPODS: 0.37.2

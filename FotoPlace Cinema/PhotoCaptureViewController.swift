@@ -21,7 +21,7 @@ class PhotoCaptureViewController: BottomOverlayViewController {
     lazy var capturedImage: UIImageView = UIImageView()
     
     lazy var takePhotoButton: UIButton = {
-        let button: UIButton = UIButton.buttonWithType(.Custom) as UIButton
+        let button: UIButton = UIButton.buttonWithType(.Custom) as! UIButton
         button.setImage(UIImage(named: "take_photo"), forState: .Normal)
         button.setImage(UIImage(named: "take_photo_down"), forState: .Highlighted)
         button.addTarget(self, action: "didTakePhoto:", forControlEvents: .TouchUpInside)
@@ -29,7 +29,7 @@ class PhotoCaptureViewController: BottomOverlayViewController {
     }()
     
     lazy var chooseFromGalleryButton: UIButton = {
-        let button: UIButton = UIButton.buttonWithType(.Custom) as UIButton
+        let button: UIButton = UIButton.buttonWithType(.Custom) as! UIButton
         button.setTitle("去相册选", forState: .Normal)
         button.setTitleColor(Style.ForegroundBlue, forState: .Normal)
         button.titleLabel!.font = UIFont(name: "HelveticaNeue", size: 16)
@@ -174,7 +174,7 @@ class PhotoCaptureViewController: BottomOverlayViewController {
         previewLayer!.removeFromSuperlayer()
         
         if segue.identifier == "cropImage" {
-            let vc = segue.destinationViewController as CropPhotoViewController
+            let vc = segue.destinationViewController as! CropPhotoViewController
             vc.sourceImage = self.capturedImage.image
         }
     }

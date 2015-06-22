@@ -85,7 +85,7 @@ class MovieEffectViewController: BottomOverlayViewController {
     
     lazy private var editSubtitleButton: UIButton = {
         // TODO: Change appearance of edit button
-        let button: UIButton = UIButton.buttonWithType(.Custom) as UIButton
+        let button: UIButton = UIButton.buttonWithType(.Custom) as! UIButton
         button.backgroundColor = UIColor.clearColor()
         button.addTarget(self, action: "editSubtitleButtonTapped:", forControlEvents: .TouchUpInside)
         return button
@@ -209,8 +209,8 @@ class MovieEffectViewController: BottomOverlayViewController {
         }
         alertController.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))
         alertController.addAction(UIAlertAction(title: "Finish", style: .Default, handler: { (_) -> Void in
-            self.topSubtitle = (alertController.textFields![0] as UITextField).text ?? ""
-            self.bottomSubtitle = (alertController.textFields![1] as UITextField).text ?? ""
+            self.topSubtitle = (alertController.textFields![0] as! UITextField).text ?? ""
+            self.bottomSubtitle = (alertController.textFields![1] as! UITextField).text ?? ""
         }))
         presentViewController(alertController, animated: true, completion: nil)
     }

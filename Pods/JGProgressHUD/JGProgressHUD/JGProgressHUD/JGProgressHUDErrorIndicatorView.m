@@ -7,13 +7,16 @@
 //
 
 #import "JGProgressHUDErrorIndicatorView.h"
+#import "JGProgressHUD.h"
 
 @implementation JGProgressHUDErrorIndicatorView
 
 - (instancetype)initWithContentView:(UIView *__unused)contentView {
-    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"JGProgressHUD Resources" ofType:@"bundle"];
+    NSBundle *resourceBundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[JGProgressHUD class]] pathForResource:@"JGProgressHUD Resources" ofType:@"bundle"]];
     
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageWithContentsOfFile:[bundlePath stringByAppendingPathComponent:@"jg_hud_error.png"]]];
+    NSString *imgPath = [resourceBundle pathForResource:@"jg_hud_error" ofType:@"png"];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageWithContentsOfFile:imgPath]];
     
     self = [super initWithContentView:imageView];
     
@@ -22,6 +25,10 @@
 
 - (instancetype)init {
     return [self initWithContentView:nil];
+}
+
+- (void)updateAccessibility {
+    self.accessibilityLabel = NSLocalizedString(@"Error",);
 }
 
 @end
