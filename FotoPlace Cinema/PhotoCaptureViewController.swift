@@ -184,11 +184,16 @@ class PhotoCaptureViewController: BottomOverlayViewController {
             // Landscape
             UIView.animateWithDuration(0.25, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: nil, animations: { () -> Void in
                 self.portraitNoticeOverlayView.alpha = 0
+                let rotation: CGAffineTransform = CGAffineTransformMakeRotation(CGFloat(self.photoOrientation == .Left ? M_PI_2 : -M_PI_2))
+                self.takePhotoButton.transform = rotation
+                self.chooseFromGalleryButton.transform = rotation
             }, completion: nil)
         } else {
             // Portrait
             UIView.animateWithDuration(0.25, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: nil, animations: { () -> Void in
                 self.portraitNoticeOverlayView.alpha = 1
+                self.takePhotoButton.transform = CGAffineTransformIdentity
+                self.chooseFromGalleryButton.transform = CGAffineTransformIdentity
             }, completion: nil)
         }
     }
